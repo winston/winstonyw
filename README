@@ -1,0 +1,22 @@
+This theme uses the Google API to load jQuery, and Disqus as its comments system.
+
+Please update and customize these files:
+1. header.php
+  - Update meta tags for description, keywords, author and FeedBurner RSS link.
+  - Update Logo.
+  - Omit Line 32 unless you are using Google CSE. Instructions here: http://www.doshdosh.com/how-to-set-up-google-custom-search-and-make-money/
+2. footer.php
+  - Update "Connect" links.
+  - Embed Disqus code to display number of comments for each post.
+  - Embed Google Analytics code.
+3. single.php
+  - Embed Disqus code to display comments for the current post.
+4. image.php
+  - Embed Disqus code to display comments for the current post.
+5. post.php
+  - Update "Share" links
+6. sidebar.php (Widgets-Ready)
+  - Update each section unless widgets are used.
+
+Note:
+google_search.php - This is the page template for the Google CSE results.
